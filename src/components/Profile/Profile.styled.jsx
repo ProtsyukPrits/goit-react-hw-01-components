@@ -5,7 +5,6 @@ import styled from 'styled-components'
 export const ProfileCont = styled.div`
 width: 400px;
 margin: auto;
-margin: 50px;
 border-radius: 4px;
 border: grey solid 1px
 `;
