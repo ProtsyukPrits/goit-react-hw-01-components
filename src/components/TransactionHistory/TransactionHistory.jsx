@@ -10,7 +10,6 @@ import {
 } from './TransactionHistory.styled';
 
 export const TransactionHistory = ({ items }) => {
-  console.log('wdwd', items);
   return (
     <Table>
       <Heading>
