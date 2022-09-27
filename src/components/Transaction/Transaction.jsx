@@ -1,5 +1,4 @@
 import { PropTypes } from 'prop-types'
-import { } from './Transaction.styled'
 
 export const Transaction = ({ item: { type, amount, currency } }) => {
   

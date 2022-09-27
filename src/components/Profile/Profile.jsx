@@ -14,15 +14,15 @@ import {
 
 //  import { } from 'components/Profile/profile.styled'
 
-export const Profile = ({
-  user: {
+export const Profile = (
+  {
     avatar,
     tag,
     username,
     location,
     stats: { followers, views, likes },
   },
-}) => {
+) => {
   return (
     <ProfileCont>
       <Description>
@@ -50,7 +50,7 @@ export const Profile = ({
 };
 
 Profile.propTypes = {
-  stats: PropTypes.shape({
+  user: PropTypes.shape({
     username: PropTypes.string.isRequired,
     tag: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,

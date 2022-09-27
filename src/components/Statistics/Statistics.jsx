@@ -2,10 +2,10 @@ import { StatisticsStats } from 'components/StatisticsStats/StatisticsStats';
 import { PropTypes } from 'prop-types';
 import { StatisticSection, Title, ItemsList, Items } from './Statistics.styled';
 
-export const Statistics = ({ data, title = 'OnLoad stats' }) => {
+export const Statistics = ({ data, title}) => {
   return (
     <StatisticSection>
-      <Title>{title}</Title>
+      <Title>{title ? title : ''}</Title>
 
       <ItemsList>
         {data.map((stats, id) => (

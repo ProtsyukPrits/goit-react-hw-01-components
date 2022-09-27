@@ -23,7 +23,7 @@ export const TransactionHistory = ({ items }) => {
       <Body>
         {items.map((item, id) => (
           <BodyList key={id}>
-            <Transaction odd={true} item={item} />
+            <Transaction  item={item} />
           </BodyList>
         ))}
       </Body>
