@@ -1,8 +1,8 @@
-import user from '../user'
+import user from '../user';
 import data from '../data';
 import friends from '../friends';
-import transactions from '../transactions'
- 
+import transactions from '../transactions';
+
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import { FriendList } from './FriendList/FriendList';
